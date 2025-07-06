@@ -4224,7 +4224,7 @@ code {
 	--user-modal-filter: var(--background-filter);
 	--home-icon: url(https://clearvision.github.io/icons/discord.svg);
 	--home-size: cover;
-	--main-font: cirno;
+	--main-font: "cirno";
 	--code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
 	--channel-normal: var(--interactive-normal);
 	--channel-muted: var(--interactive-muted);
