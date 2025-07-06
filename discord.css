@@ -9,6 +9,11 @@
 	}
 }
 
+@font-face {
+  font-family: cirno;
+  src: url("https://github.com/manythingsofthings/bn-font/raw/refs/heads/main/Cirno.ttf");
+}
+
 @keyframes cv-card-loading {
 	0% {
 		opacity: .66
@@ -4219,7 +4224,7 @@ code {
 	--user-modal-filter: var(--background-filter);
 	--home-icon: url(https://clearvision.github.io/icons/discord.svg);
 	--home-size: cover;
-	--main-font: "gg sans", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--main-font: cirno;
 	--code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
 	--channel-normal: var(--interactive-normal);
 	--channel-muted: var(--interactive-muted);
